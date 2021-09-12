@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-color: black;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr auto;
+    grid-template-areas: 
+        'nav1', 
+        'nav2',
+        'main',
+        'footer';
+}
+
+#grid-row-one {
+    grid-area: nav1;
+}
+
+#grid-row-two {
+    grid-area: nav2;
+}
+
+#grid-row-three {
+    grid-area: main;
+}
+
+#grid-row-last {
+    grid-area: footer;
+}
