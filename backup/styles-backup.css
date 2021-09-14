@@ -22,15 +22,13 @@ body {
 section {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10vh 1fr 10vh 1fr 10vh 1fr 10vh;
+    grid-template-rows: 10vh 1fr 10vh 1fr 1fr;
     grid-template-areas: 
         'blank-spacer1'
         'body-row-1'
         'blank-spacer2'
         'body-row-2'
-        'blank-spacer3'
-        'body-row-3'
-        'blank-spacer-4';
+        'body-row-3';
 }
 
 #blank-spacer1 {
@@ -41,19 +39,8 @@ section {
     grid-area: blank-spacer2;
 }
 
-#blank-spacer3 {
-    grid-area: blank-spacer3;
-}
-
-#blank-spacer4 {
-    grid-area: blank-spacer4;
-}
-
 #body-row-1 {
     grid-area: body-row-1;
-    display: flex;
-    align-items: center;
-    justify-content: start;
     /* width: 100vw; */
 }
 
