@@ -82,6 +82,7 @@ section {
     align-items: center;
 
     height: 4vh;
+    /* height: 10%; */
 }
 
 /* body grid (not header or footer) */
@@ -110,8 +111,12 @@ section {
 }
 
 .logo {
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    
 }
+
 
 /* Standard Tags */
 h1 {
@@ -152,7 +157,16 @@ ul:hover {
 /* 
 TODO 
 
+set up a github in mom's email. then in that github 
+create a legal defense repo
+invite rka.richard (richard.archer.123456? whatever my github is)
+push MY legal defense repo to that
+attach her url to the page  in aws 
+share it with her 
+
 replace this blank-spacer nonsense with grid properties like row gap lol
+
+turn the block of text bio into something with bullets that is legible 
 
 need the first row to be a big wide picture with the firm name 
 maybe look into grid to add column padding on the edges? for the 2nd grid, not the OG. 
